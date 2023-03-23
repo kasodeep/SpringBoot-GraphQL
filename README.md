@@ -9,7 +9,7 @@ The project uses in memory **H2** database to store data and **Spring JPA** to s
 
 ---
 
-The [schema.graphql](http) file has the graphQL mutation and queries along with the custom input types.
+The [schema.graphql](https://github.com/kasodeep/SpringBoot-GraphQL/blob/master/src/main/resources/graphql/schema.graphqls) file has the graphQL mutation and queries along with the custom input types.
 <br>
 The implementation and whole functionallity is in the controllers:,_In which methods have been created with @QueryMapping and @MutationMapping annotation to tell spring boot to automatically scan for Schemas._
 
